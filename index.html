@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Common Goods - The Local Charity Shop </title>
+
+
+    <style>
+
+/* font import */
+@font-face {
+    font-family: 'thecathasahatregular';
+    src: url('thecathasahat-webfont.woff2') format('woff2'),
+         url('thecathasahat-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html, body {
+    font-family: 'thecathasahatregular';
+    height: 100%;
+    background-color:#209d51 ;
+    scroll-behavior: smooth;
+}
+
+/* CSS only for examples not required for centering */
+.container {
+    height: 100%;
+}
+
+a {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+/* highlight test */
+.highlight {
+background: url(img/underline.png);
+background-repeat: no-repeat;
+background-size: 100% 0%;
+padding: 8px 0;
+
+}
+
+.highlight:hover {
+
+background-size: 100% 95%;
+
+}
+
+
+/* Animations */
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-5px);
+		-ms-transform:     translateY(-5px);
+		transform:         translateY(-5px)
+	}
+	60% {
+		-webkit-transform: translateY(-3px);
+		-ms-transform:     translateY(-3px);
+		transform:         translateY(-3px)
+	}
+}
+.bouncey {  
+    width:150px;
+  height:50px;
+  position:absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  color: white;
+}
+span:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+}
+
+
+
+    </style>
+  </head>
+  <body>
+    
+    <div class="container text-white">
+    
+        <!--vertical align on parent using my-auto, horizontal align on self mx-auto-->
+        <div class="row h-100">
+            <div class="col-sm-12 my-auto">
+                
+                <div class="row">
+
+                    <div class="col-12">
+                        <div class="mx-auto" style="width:320px;">
+                            <img src="img/logo.svg" class="img-fluid py-5" alt="">
+                        </div>
+                    </div>
+                    
+                    <div class="text-center col-6">
+                      <h6> <a href="#howitworks"><span class="highlight">How it works </span></a>  </h6>
+                    </div>
+                    <div class="text-center col-6">
+                        <h6><a href="#getinvolved"><span class="highlight">Get involved</span> </a> </h6>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <!-- HOW IT WORKS -->
+        <div class="row h-100 pt-5" id="howitworks">
+            <div class="col-sm-12 text-center">
+                <h4>How it works</h4>
+                    <div class="mx-auto col-12 col-md-8">
+                        <img src="img/how-it-works.svg" class="img-fluid py-5" alt="">
+                    </div>
+            </div>
+            
+            <div class="col-sm-12 text-center">
+                
+                <span class="bouncey"> <a href="#getinvolved">Get Involved <br> ⮟ </a></span>
+            
+            </div>
+
+        </div>
+
+
+        <!-- Get Involved  -->
+        <div class="row h-100 pt-5" id="getinvolved">
+            <div class="col-sm-12 text-center">
+                <h4>Get involved</h4>
+                <div class="mx-auto col-12 col-md-8">
+                <img src="img/how-it-works.svg" class="img-fluid py-5" alt="">
+            </div>
+
+            </div>
+
+            <div class="col-sm-12 text-center">
+                
+                <span class="bouncey"> <a href="#contact"> Get in touch <br> ⮟ </a></span>
+            
+            </div>
+        </div>
+
+        <!-- Get Involved  -->
+        <div class="row h-100 pt-5" id="contact">
+            <div class="col-sm-12 text-center">
+                <h3>Contact Us</h3>
+                <div class="mx-auto col-12 col-md-8 pt-5">
+               
+                <br>
+                    <h4><span class="highlight"> hello@commongoods-shop.com </span></h4>
+
+
+                    <br>
+                    <br>
+                    
+                    <h4>Street address Line 1, <br>
+                    Street Line 2 <br>
+                City <br>
+                postcode
+                
+            </h4>
+            </div>
+
+            </div>
+
+           
+        </div>
+        
+
+    </div>
+    
+      
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
